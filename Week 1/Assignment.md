@@ -1,4 +1,4 @@
-Meaning of Stack
+1. Meaning of Stack
 
 A stack is a type of data structure where items are added and removed from the same end. It follows the LIFO principle, which means Last In, First Out.
 
@@ -41,3 +41,19 @@ Initial array:
 [10, 20, 30, 40, 50]
 
 The following operations can be performed:
+Operation Result
+Push(60) Stack is full
+Pop() Removes 50
+Peek() Shows 40
+Push(60) Adds 60
+Display() 10, 20, 30, 40, 60
+isEmpty() False
+isFull() True
+5. Explanation of Stack Operations
+Push: Adding a new item to the stack.
+Pop: Removing the top item from the stack.
+Peek: Showing the top item without removing it.
+isEmpty: Checking if the stack is empty.
+isFull: Checking if the stack is full.
+Display: Showing all the items in the stack.
+Conclusion
